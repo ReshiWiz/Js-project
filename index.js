@@ -35,4 +35,17 @@
 //-------------------------------Task-4------------------------------------------------------------//
 //  4=> create the variables for storing the product details with appropriate variable names and display the result in DOM
 
-// 
+//  const Product_variables = {
+//     five_Star : "thirty",
+//     dairy_Milk : 60,
+//     milky_Bar : 30,
+//     dark_fantasy: 60,
+//     park : 20
+//  }
+//  console.log(Product_variables);
+// //  document.write (Product_variables)
+// // document.getElementById('span').innerText = Object.keys(Product_variables)
+// // let shopping = Object.keys(Product_variables)
+// // document.getElementById('span').innerText = shopping
+// let myString = JSON.stringify(Product_variables)
+// document.getElementById('span').innerText = myString

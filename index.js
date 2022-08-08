@@ -48,3 +48,13 @@
 // // document.getElementById('span').innerText = shopping
 // let myString = JSON.stringify(Product_variables)
 // document.getElementById('span').innerText = myString
+
+// const user = ()=> {
+
+// }
+
+// document.body.myData = {
+//     names  : "jeeva",
+//     class  : 'A'
+// }
+// document.write(document.body.myData.names);

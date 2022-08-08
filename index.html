@@ -6,20 +6,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript task</title>
-</head>
+    <link rel="stylesheet" href="style.css">
+   
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #fbe0e0;
+    }
+    #clicker {
+        width: 80px;
+        height: 40px;
+        border-radius: 5px;
+        /* margin-left: 40px; */
+        display: inline;
+        margin-top: 40px;
+        font-size: 16px;
+        
+    }
+    
+</style>
 
 <body>
 
 
-    <h3>hello world</h3>
+    <h3>JS Task- 2</h3>
     <!-- <p id="accountInfo"></p> -->
     
     <div id="accountInfo"></div>
-    <span id="span" ></span>
+    <span id="span"  ></span>
     
-    
+    <button id="clicker" onclick="changeMe(this)"> click me </button>
     
     </body>
+    <script>
+        function changeMe(e) {
+     e.style.background = "yellow"
+     e.innerText = "play time"
+     }
+        </script>
+</head>
     <script src="index.js"></script>
 
 </html>
